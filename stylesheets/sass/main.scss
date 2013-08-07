@@ -1,5 +1,7 @@
+$main-color: #47B56C;
+
 body {
-  background-color: #ffff66;
+  background-color: $main-color;
 }
 
 #title {
@@ -38,11 +40,11 @@ footer {
 
   a {
     text-decoration: none;
-    color: #ffff66;
+    color: $main-color;
     line-height: 84px;
 
     &:visited {
-      color: #ffff66;
+      color: $main-color;
     }
   }
 }
